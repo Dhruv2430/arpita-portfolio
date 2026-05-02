@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: Satoshi, system-ui, sans-serif;
+  --font-body: Inter, system-ui, sans-serif;
+}
+
+:root {
+  --font-display: Satoshi, system-ui, sans-serif;
+  --font-body: Inter, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #FFFFFF;
+  color: #111111;
+}
+
+.gradient-name {
+  background: linear-gradient(135deg, #111111 0%, #4B5563 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
